@@ -1,0 +1,22 @@
+{
+    "version": "1.2",
+    "chapters": [
+      {
+        "startTime": 0,
+        "title": "Introduction"
+      },
+      {
+        "startTime": 90,
+        "title": "History of the Alcazaba"
+      },
+      {
+        "startTime": 280,
+        "title": "Main Courtyard"
+      },
+      {
+        "startTime": 420,
+        "title": "Gardens and Lookout"
+      }
+    ]
+  }
+  
