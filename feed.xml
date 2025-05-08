@@ -11,13 +11,15 @@
     <itunes:author>Guillermo</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="https://guilledt.github.io/tge/imagen-portada.jpg" />
-    <itunes:category text="Places &amp; Travel" />
+    <itunes:category text="Leisure">
+      <itunes:category text="Travel"/>
+    </itunes:category>
 
     <!-- EPISODIO -->
     <item>
       <title>Alcazaba of Málaga — Audio Guide</title>
       <description>Full English tour of the Alcazaba monument in Málaga.</description>
-      <enclosure url="https://guilledt.github.io/tge/alcazaba_full_tour.wav" length="12345678" type="audio/wav"/>
+      <enclosure url="https://guilledt.github.io/tge/alcazaba_full_tour.mp3" length="19857068" type="audio/mpeg"/>
       <guid>alcazaba-en</guid>
       <pubDate>Wed, 08 May 2025 10:00:00 GMT</pubDate>
       <itunes:duration>00:10:20</itunes:duration>
