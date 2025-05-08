@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:podcast="https://podcastindex.org/namespace/1.0">
+
+  <channel>
+    <title>Tour Guides in English</title>
+    <link>https://guilledt.github.io/tge/</link>
+    <language>en</language>
+    <description>Multilingual audio guides for historical places</description>
+    <itunes:author>Guillermo</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="https://guilledt.github.io/tge/imagen-portada.jpg" />
+    <itunes:category text="Places & Travel" />
+
+    <!-- EPISODIO -->
+    <item>
+      <title>Alcazaba of Málaga — Audio Guide</title>
+      <description>Full English tour of the Alcazaba monument in Málaga.</description>
+      <enclosure url="https://guilledt.github.io/tge/alcazaba_full_tour.wav" length="12345678" type="audio/wav"/>
+      <guid>alcazaba-en</guid>
+      <pubDate>Wed, 08 May 2025 10:00:00 GMT</pubDate>
+      <itunes:duration>00:30:00</itunes:duration>
+
+      <!-- CAPÍTULOS -->
+      <podcast:chapters version="1.2" type="application/json+chapters">
+        https://guilledt.github.io/tge/alcazaba-chapters.json
+      </podcast:chapters>
+    </item>
+  </channel>
+</rss>
