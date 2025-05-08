@@ -10,29 +10,36 @@
     <description>Multilingual audio guides for historical places</description>
     <itunes:author>Guillermo</itunes:author>
     <itunes:explicit>no</itunes:explicit>
-    
-    <!-- Updated artwork URL -->
-    <itunes:image href="https://guilledt.github.io/tge/imagen-portada.jpg" />
-    
+
+    <!-- Owner contact required by Spotify/Apple -->
+    <itunes:owner>
+      <itunes:name>Guillermo</itunes:name>
+      <itunes:email>guilletemboury@gmail.com</itunes:email>
+    </itunes:owner>
+
+    <!-- Cover art (at least 1400×1400) -->
+    <itunes:image href="https://guilledt.github.io/tge/imagen-portada.jpg"/>
+
+    <!-- Valid Apple category -->
     <itunes:category text="Society &amp; Culture">
       <itunes:category text="Places &amp; Travel"/>
     </itunes:category>
 
-    <!-- EPISODE -->
+    <!-- Episode Item -->
     <item>
       <title>Alcazaba of Málaga — Audio Guide</title>
-      
-      <!-- Link must point to a webpage, not the MP3 -->
-      <link>https://guilledt.github.io/tge/</link>
-
+      <!-- Episode webpage (must be HTML) -->
+      <link>https://guilledt.github.io/tge/index.html</link>
       <description>Full English tour of the Alcazaba monument in Málaga.</description>
-      <enclosure url="https://guilledt.github.io/tge/alcazaba_full_tour.mp3"
-                 length="19857068"
-                 type="audio/mpeg"/>
-      <guid>alcazaba-en</guid>
+      <enclosure
+        url="https://guilledt.github.io/tge/alcazaba_full_tour.mp3"
+        length="19857068"
+        type="audio/mpeg"/>
+      <guid isPermaLink="false">alcazaba-en</guid>
       <pubDate>Wed, 08 May 2025 10:00:00 GMT</pubDate>
       <itunes:duration>00:10:20</itunes:duration>
 
+      <!-- Chapters JSON -->
       <podcast:chapters version="1.2" type="application/json+chapters">
         https://guilledt.github.io/tge/alcazaba-chapters.json
       </podcast:chapters>
