@@ -11,7 +11,7 @@
     <itunes:author>Guillermo</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="https://guilledt.github.io/tge/imagen-portada.jpg" />
-    <itunes:category text="Places & Travel" />
+    <itunes:category text="Places &amp; Travel" />
 
     <!-- EPISODIO -->
     <item>
@@ -20,7 +20,7 @@
       <enclosure url="https://guilledt.github.io/tge/alcazaba_full_tour.wav" length="12345678" type="audio/wav"/>
       <guid>alcazaba-en</guid>
       <pubDate>Wed, 08 May 2025 10:00:00 GMT</pubDate>
-      <itunes:duration>00:30:00</itunes:duration>
+      <itunes:duration>00:10:20</itunes:duration>
 
       <!-- CAPÍTULOS -->
       <podcast:chapters version="1.2" type="application/json+chapters">
