@@ -12,7 +12,7 @@
     <itunes:explicit>no</itunes:explicit>
     
     <!-- Updated artwork URL -->
-    <itunes:image href="https://guilledt.github.io/tge/imagen-portada-1400.jpg" />
+    <itunes:image href="https://guilledt.github.io/tge/imagen-portada.jpg" />
     
     <itunes:category text="Society &amp; Culture">
       <itunes:category text="Places &amp; Travel"/>
